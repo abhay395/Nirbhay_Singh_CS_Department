@@ -92,8 +92,8 @@ repo-name/
 
 | Part     | Platform   | URL                                 |  
 |----------|------------|-------------------------------------|  
-| Frontend | Netlify    | [Your Frontend URL](https://gnspsc.netlify.app/) |  
-| Backend  | Vercel     | [Your Backend URL](https://nirbhay-singh-cs-department-git-main-abhay395s-projects.vercel.app/) |  
+| Frontend | Netlify    | [Frontend URL](https://gnspsc.netlify.app/) |  
+| Backend  | Vercel     | [Backend URL](https://nirbhay-singh-cs-department-git-main-abhay395s-projects.vercel.app/) |  
 
 ---
 
