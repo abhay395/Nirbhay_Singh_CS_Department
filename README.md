@@ -1,7 +1,7 @@
 # Nirbhay Singh College CS Department Website  
 
 ### Description  
-This is the official website for the **Computer Science Department** of **Nirbhay Singh College**, providing dynamic features for students, teachers, and administrators.  
+This is the official website for the **Computer Science Department** of **Nirbhay Singh College**, providing essential features for students, teachers, and administrators.  
 
 ---
 
@@ -9,25 +9,27 @@ This is the official website for the **Computer Science Department** of **Nirbha
 
 ```plaintext  
 repo-name/  
-├── client/        # React.js frontend application  
-├── server/        # Node.js + Express.js backend application  
+├── client/        # Frontend: HTML, CSS, and JavaScript  
+├── server/        # Backend: Node.js + Express.js  
 └── README.md      # Project documentation  
 ```  
 
 ---
 
 ### Features  
-- **Dynamic Slider:** Manage banner images for announcements and events.  
-- **Teacher Management:** Add and manage faculty details with images and qualifications.  
-- **Secure Authentication:** Admin login with JWT-based authentication.  
-- **Mobile-Friendly Design:** Optimized for all devices.  
+- **Dynamic Slider:** Add and manage banner images for announcements and events.  
+- **Teacher Management:** Add and manage faculty details, including images and qualifications.  
+- **Secure Authentication:** Admin login powered by JWT-based authentication for enhanced security.  
+- **Mobile-Friendly Design:** Responsive layout using HTML and CSS.  
 
 ---
 
 ### Tech Stack  
 
 **Frontend (client):**  
-- React.js  
+- HTML  
+- CSS  
+- JavaScript  
 
 **Backend (server):**  
 - Node.js  
@@ -35,9 +37,9 @@ repo-name/
 - MongoDB (with Mongoose)  
 
 **Tools:**  
-- Cloudinary for image uploads  
-- Netlify for frontend hosting  
-- Vercel for backend hosting  
+- **Cloudinary:** For image uploads.  
+- **Netlify:** Deployed frontend application.  
+- **Vercel:** Deployed backend application.  
 
 ---
 
@@ -54,7 +56,7 @@ repo-name/
    cd server  
    npm install  
    ```  
-   - Add environment variables in `.env` file:  
+   - Add environment variables to a `.env` file in the **server** folder:  
      ```env  
      MONGO_URI=<your-mongodb-uri>  
      JWT_SECRET=<your-jwt-secret>  
@@ -66,25 +68,16 @@ repo-name/
      ```bash  
      npm start  
      ```  
-   - Deploy the server on **Vercel**:  
-     - Push the server code to GitHub.  
-     - Connect the GitHub repository to Vercel and follow their deployment steps.  
-     - After deployment, note the server URL from Vercel (e.g., `https://your-backend.vercel.app`).  
+   - **Deploy the Backend on Vercel:**  
+     - Push the **server** code to GitHub.  
+     - Connect the repository to **Vercel** and follow their deployment process.  
+     - Note down the deployed backend URL (e.g., `https://your-backend.vercel.app`).  
 
 3. **Setup Frontend (Client):**  
-   ```bash  
-   cd ../client  
-   npm install  
-   ```  
-   - Update the API base URL in the frontend code to match the deployed backend URL (e.g., `https://your-backend.vercel.app`).  
-   - Start the client locally:  
-     ```bash  
-     npm start  
-     ```  
-   - Deploy the frontend on **Netlify**:  
-     - Push the client code to GitHub.  
-     - Connect the GitHub repository to Netlify and follow their deployment steps.  
-     - After deployment, note the frontend URL from Netlify (e.g., `https://your-frontend.netlify.app`).  
+   - Edit the JavaScript file in the **client** folder to use your backend API URL (e.g., `https://your-backend.vercel.app`).  
+   - **Deploy the Frontend on Netlify:**  
+     - Upload the entire **client** folder to **Netlify**.  
+     - Note down the deployed frontend URL (e.g., `https://your-frontend.netlify.app`).  
 
 ---
 
@@ -100,12 +93,10 @@ repo-name/
 ### Future Enhancements  
 - Add student login and profile management.  
 - Implement notifications for events and updates.  
-- Add a file upload system for assignments and resources.  
+- Add a resource upload system for assignments and study materials.  
 
 ---
 
 ### Contributors  
 - [Abhay](https://github.com/abhay395)  
 - [Ankush Patidar](https://github.com/Ankush-84)  
-
----
